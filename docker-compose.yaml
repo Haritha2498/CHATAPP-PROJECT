@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: chatmongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo_volume:/data/db
+  api:
+    image: chatapi
+    depends_on:
+      - mongodb
+    build: 
+      context: server
+      dockerfile: ./dockerfile
+    ports:
+      - 3001:3001
+
+  ui:
+    image: chatui
+    depends_on:
+      - api
+    build:
+      context: chatappui
+      dockerfile: ./dockerfile
+    ports:
+      - 3000:3000
+
+volumes:
+  mongo_volume:
