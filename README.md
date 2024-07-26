@@ -1,27 +1,29 @@
-    #Chat Application Project 
+     # Chat Application Project
 
 
-    ##**Project Overview**
+    **Project Overview**
 
     This project is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Docker for containerization. 
     The application allows users to create accounts, join chat rooms, and send messages in real-time.
 
-    ##**Features**
+    **Features**
+    
 
     User authentication (sign up, login, logout)
     Real-time messaging
     Join and create chat rooms
     User profile management
     Responsive design
-
-    ##**Technologies Used**
-
+    
+    **Technologies Used**
+     
     Frontend: React.js
     Backend: Node.js, Express.js
     Database: MongoDB
     Containerization: Docker
 
-    ##**Getting Started**
+    **Getting Started**
+   
       1.Clone the Repository
       2.Docker Setup
           docker-compose up --build
