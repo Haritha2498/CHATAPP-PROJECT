@@ -1,4 +1,4 @@
-     # Chat Application Project
+     ## Chat Application Project
 
 
     ** Project Overview **
