@@ -1,7 +1,7 @@
      # Chat Application Project
 
 
-    **Project Overview**
+    // Project Overview
 
     This project is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Docker for containerization. 
     The application allows users to create accounts, join chat rooms, and send messages in real-time.
