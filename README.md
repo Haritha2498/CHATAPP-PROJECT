@@ -73,9 +73,7 @@ Watch demo vedio:<br>
 
 https://youtu.be/c9cMnuH9dM0
 
-<a href="https://drive.google.com/file/d/1Jszd-EyFJdOLACk4Y1F6vmSJj_KNTqV7/view?usp=sharing">
-    <img src="https://github.com/Haritha2498/Linkedin-_dapp/blob/main/UI/src/assets/Thumbnail.png" alt="demo video" width="200" />
-</a>
+
 
 
 ## :ribbon: Contributing ##
